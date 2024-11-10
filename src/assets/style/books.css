@@ -1,0 +1,122 @@
+.books{
+    background: linear-gradient(skyblue,rgb(35, 171, 212),skyblue,lightblue, skyblue,rgb(121, 121, 231)); /* Apply background color to the entire container */
+    min-height: 100vh; /* Ensure it takes the full viewport height */
+    padding: 20px; /* Add some padding around the books */
+    overflow-y: auto;
+}
+.books .cards{
+    width: 40vw;
+    min-height: 45vh;
+    border: 1px solid black;
+    margin-top: 40px;
+    display: flex;
+    box-shadow: inset 0 0 30px grey;
+    background: linear-gradient(lightgray,skyblue,rgb(112, 204, 240),lightgray);
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 0 20px black;
+}
+
+.books{
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 40px;
+    justify-content: space-around;
+}
+
+.cards .image{
+    width: 35%;
+    height: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cards .info{
+    width: 65%;
+    height: 100%;
+    /* background-color: violet; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cards .img{
+    width: 70%;
+    height: 60%;
+    /* border: 1px solid black; */
+}
+
+.cards img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: 0 0 20px white;
+
+}
+
+.cards .title{
+    font-size: larger;
+    font-weight: bold;
+    width: 70%;
+    text-align: center;
+}
+
+.cards table{
+    height: 70%;
+    width: 80%;
+    border-collapse: collapse;
+    text-align: center;
+    text-transform:capitalize;
+}
+
+.cards tr, .cards td{
+    border: 1px solid black;
+}
+
+.cards td{
+    width: 50%;
+    height: 10%;
+}
+
+.cards .btns{
+    width: 90%;
+    height: 20%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cards button{
+    width: 34%;
+    height: 80%;
+    border-radius: 25%;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: monospace;
+    background: linear-gradient(90deg, #1164bd, #3a8ce4);
+    border-color: bisque;
+    cursor: pointer;
+}
+
+#read{
+    color: darkgreen;
+}
+
+#delete{
+    color: red;
+}
+
+.cards button#read:hover{
+    color: white;
+    background: green !important;
+}
+
+.cards button#delete:hover{
+    color: white;
+    background: red !important;
+}

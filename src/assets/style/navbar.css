@@ -1,0 +1,43 @@
+.navbar{
+    background: linear-gradient(rgba(35, 35, 241, 0.616),skyblue ,white);
+    width: 100vw;
+    height: 100px;
+    display: flex;
+}
+
+.navbar .logo{
+    width: 20%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar .links{
+    width: 80%;
+    height: 100%;
+    /* background-color: blue; */
+}
+
+.navbar ul{
+    height: 100%;
+    /* background-color: antiquewhite; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.navbar a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(20, 34, 34); 
+    text-shadow: 0 0 7px rgba(3, 170, 221, 0.938);
+}
+
+.navbar a:hover{
+    filter: brightness(0.7);
+    text-decoration: solid underline;
+}

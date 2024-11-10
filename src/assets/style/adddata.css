@@ -1,0 +1,32 @@
+.addbook, .adduser {
+    width: 30vw;      /* Set the desired width */
+    height: 70vh;     /* Set the height for the box */
+    /* border: 1px solid #1b1a1a; */
+    /* box-shadow: inset 0 0 20px #1b1a1a; */
+    padding: 10px;
+    margin: 20px auto;
+    overflow-y: auto;  /* Enables vertical scrolling */
+    overflow-x: hidden;/* Disable horizontal scroll (optional) */
+  }
+  
+  .addbook form , .adduser form{
+    display: flex;
+    padding: 30px;
+    border-radius: 25px;
+    box-shadow: inset 0 0 20px #1b1a1a;
+    flex-direction: column;  /* Stack the input fields vertically */
+    gap: 20px;               /* Add space between the input fields */
+  }
+  
+  .addbook input, .adduser input {
+    padding: 8px;
+    font-size: 14px;
+  }
+  
+  .addbook button, .adduser button{
+    padding: 10px;
+    background-color: #1b1a1a;
+    color: whitesmoke;
+    font-size: larger;
+    font-weight: bolder;
+  }

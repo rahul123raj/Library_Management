@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(rgb(3, 183, 243),rgba(46, 185, 240, 0.616),rgb(150, 209, 233));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .container .btns-container{
+    width: 80%;
+    height: 60px;
+    border-radius: 20px;
+    border-style: groove;
+    /* box-shadow: inset 0 0 20px lightgoldenrodyellow; */
+    /* background-color: blueviolet; */
+    display: flex;
+}
+
+.main .container .btns-container button{
+    width: 50%;
+    border-style: ridge;
+    font-weight: bold;
+    font-size: large;
+    transition: 0.8s;
+    cursor: pointer;
+    
+}
+
+
+
+.admin-login{
+    margin-left: 0%;
+    border-radius: 20px 0px 0px 20px;
+    background-color: yellow;
+}
+
+.users-login{
+    margin-left: 50%;
+    border-radius: 0px 20px 20px 0px;
+    background-color: red;
+}
+
+.main .container{
+    background: linear-gradient( #ff7e5f,#feb47b,#86a8e7,#91eac9);
+    height: 60vh;
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.7);
+}
+
+.main .form-container{
+    width: 80%;
+    height: 60%;
+    /* background-color: rgb(6, 206, 139); */
+}
+
+.form-container .form{
+    width: 100%;
+    height: 100%;
+}
+
+.form form{
+    width: 100%;
+    height: 100%;
+    /* background-color: #86a8e7; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.form input{
+    width: 100%;
+    height: 40px;
+    font-size: large;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 2px solid black;
+}
+
+.form button {
+    width: 50%;
+    height: 40px;
+    font-size: 1rem;
+    font-weight: bolder;
+    border-radius: 10px;
+    cursor: pointer;
+    background: none;
+    border: 0.4px solid black;
+    box-shadow: inset 0 0 20px rgba(0, 0, 248, 0.445);
+  }
+  
+  .form button:hover{
+    box-shadow: 0 0 20px rgba(0, 0, 248, 0.815);
+    
+  }
